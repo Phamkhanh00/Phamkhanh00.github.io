@@ -11,11 +11,15 @@ a {
 
 .page__main {
     /* Ảnh nền của trang đầu tiên nếu bạn muốn đổi thì đổi tại đây */
-    background-image: url("../img/HPPD1.png");
-    background-repeat: no-repeat;
     margin: 0;
     padding: 0;
+    background-image: url("../img/HPPD1.png");
     background-size: cover;
+    background-repeat: no-repeat;
+    font-size: 14px;
+    font-family: "sans-serif", "sans-serif", sans-serif;
+    color: #660086;
+    overflow: auto;
     background-position-y: -2rem;
 }
 .buttons {
@@ -133,3 +137,9 @@ a {
     border-radius: 10px;
     border: 3px solid rgb(26, 255, 0);
 }
+
+
+
+
+
+
