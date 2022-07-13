@@ -13,6 +13,7 @@ a {
     /* Ảnh nền của trang đầu tiên nếu bạn muốn đổi thì đổi tại đây */
     margin: 0;
     padding: 0;
+    max-width: max-content;
     background-image: url("../img/HPPD1.png");
     background-size: cover;
     background-repeat: no-repeat;
@@ -118,10 +119,10 @@ a {
     width: 340px;
     height:295px ;
     position: absolute;
-    bottom: 0px;
+    bottom: 0%;
     left : 100px;
     border-radius: 5px;
-    border: 3px solid rgb(240, 130, 198);
+    border: 5px solid rgb(240, 130, 198);
 }
 .cover {
     width: 240px;
